@@ -7,7 +7,7 @@ import (
 )
 
 func init() {
-	fmt.Println("矩阵科技")
+	fmt.Println("测试")
 }
 
 // Convert converts the given XML document to JSON
