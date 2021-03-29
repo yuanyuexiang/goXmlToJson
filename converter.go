@@ -2,8 +2,13 @@ package xml2json
 
 import (
 	"bytes"
+	"fmt"
 	"io"
 )
+
+func init() {
+	fmt.Println("矩阵科技")
+}
 
 // Convert converts the given XML document to JSON
 func Convert(r io.Reader) (*bytes.Buffer, error) {
